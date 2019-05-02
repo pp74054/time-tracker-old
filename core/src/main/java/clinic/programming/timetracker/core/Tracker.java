@@ -24,6 +24,6 @@ public class Tracker {
     }
 
     public TimeEntry get(int index) {
-        return entries.get(index);
+        return entries.geti(index);
     }
 }
